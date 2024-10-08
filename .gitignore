@@ -1,0 +1,44 @@
+node_modules/
+npm-debug.log
+yarn-error.log
+.npmrc
+.yarnrc
+.yarnlock
+
+# Editor config files
+.editorconfig
+
+# IDE specific files
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.pdb
+
+# Build output and temporary files
+/build
+/dist
+*.log
+*.tmp
+*.swp
+
+# Test results
+coverage
+reports
+
+# Environment variables
+.env
+.env.*
+
+# Secret keys
+secret.json
+api_key.json
+
+# Database credentials
+db.config
+db.env
+
+# Docker-specific files
+Dockerfile
+docker-compose.yml
+.dockerignore
